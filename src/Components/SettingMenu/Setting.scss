@@ -234,3 +234,20 @@
     }
   }
 }
+
+.vjs-note-setting-button {
+	.vjs-icon-placeholder {
+		font-family: "Font Awesome 5 Free";
+		font-weight: normal;
+		font-style: normal;
+		display: block;
+		transform: rotate(0deg);
+		transition: 0.2s transform;
+		&:before {
+			content: "\f044";
+			font-size: 0.7em;
+			transform: translateY(-0.005em);
+			display: block;
+		}
+	}
+}

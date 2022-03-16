@@ -1,4 +1,5 @@
 @import '../../node_modules/videojs-plus-font/scss/videojs-icons.scss';
+@import '../../node_modules/videojs-font/scss/videojs-icons.scss';
 
 .video-js .vjs-big-play-button .vjs-icon-placeholder,
 .video-js .vjs-play-control .vjs-icon-placeholder {
@@ -41,6 +42,14 @@
 
 .video-js.vjs-fullscreen .vjs-fullscreen-control .vjs-icon-placeholder {
   @extend .vjs-icon-fullscreen-exit;
+}
+
+.video-js .vjs-picture-in-picture-control .vjs-icon-placeholder {
+  @extend .vjs-icon-picture-in-picture-enter;
+}
+
+.video-js.vjs-picture-in-picture .vjs-picture-in-picture-control .vjs-icon-placeholder {
+  @extend .vjs-icon-picture-in-picture-exit;
 }
 
 .video-js .vjs-subtitles-button .vjs-icon-placeholder,

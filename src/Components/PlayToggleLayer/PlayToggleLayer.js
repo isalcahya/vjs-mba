@@ -20,8 +20,7 @@ class PlayToggleLayer extends ClickableComponent {
 
 videojs.registerComponent('PlayToggleLayer', PlayToggleLayer);
 
-const playerChildren = videojs.getComponent('Player').prototype.options_
-  .children;
+const playerChildren = videojs.getComponent('Player').prototype.options_.children;
 const loadSpinnerIndex = playerChildren.indexOf('loadingSpinner');
 
 playerChildren.splice(loadSpinnerIndex, 0, 'PlayToggleLayer');

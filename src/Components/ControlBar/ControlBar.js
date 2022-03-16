@@ -14,6 +14,7 @@ videojs.getComponent('ControlBar').prototype.options_.children = [
   'ProgressControl',
   'CustomControlSpacer',
   'SettingMenuButton',
+  'PictureInPictureToggle',
   'FullscreenToggle'
 ];
 

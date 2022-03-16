@@ -1,6 +1,7 @@
 import videojs from 'video.js';
 
 import CloseSettingMenu from './CloseSettingMenu';
+import './NoteSettingMenu';
 
 const Menu = videojs.getComponent('Menu');
 
