@@ -1,8 +1,0 @@
-# dependencies
-/node_modules
-
-# Ignore Mac system files
-.DS_store
-
-# Ignore Dist folder for production
-/dist
